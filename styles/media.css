@@ -1,0 +1,882 @@
+/* *SECTION - breakpoint 1 */
+@media (max-width: 1100px) {
+
+    /* *SECTION - Navbar */
+    .navbar-section {
+        /* width: auto;  */
+        padding: 8px 16px;
+    }
+
+    .nav-title span {
+        font-size: 22px;
+    }
+
+    nav ul li img {
+        display: none;
+    }
+
+    nav ul {
+        gap: 14px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .nav-btn button {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    /* *!SECTION - Navbar */
+
+    /* *SECTION - Hero */
+
+    header {
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+
+    .hero {
+        padding-top: 50px;
+    }
+
+
+    .hero-content {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 40px;
+    }
+
+
+    .hero-intro,
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-desc h1 {
+        font-size: 52px;
+        line-height: 1.1;
+    }
+
+    .hero-desc p {
+        font-size: 20px;
+    }
+
+
+    .hero-img .img-wrapper {
+        width: 100%;
+        height: 380px;
+    }
+
+    .heroImg-headline {
+        right: 15px;
+        top: 20px;
+    }
+
+    .hero::before {
+        left: -30px;
+    }
+
+    .hero::after {
+        right: -20px;
+    }
+
+    /* *!SECTION - Hero */
+
+    /* *SECTION - LATEST-ARTICLES */
+
+    .LATEST-ARTICLES .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .LA-content,
+    .LA-Statistics {
+        width: 100%;
+    }
+
+    .LA-Statistics {
+        position: static;
+        margin-top: 0;
+    }
+
+    .LA-title h2 {
+        font-size: 36px;
+    }
+
+    .LA-card {
+        gap: 50px;
+    }
+
+    .LA-comment {
+        width: calc(70% - 50px);
+    }
+
+    .LA-img {
+        width: calc(30% - 50px);
+    }
+
+
+
+
+    /* *!SECTION - LATEST-ARTICLES */
+
+
+    /* *SECTION - Authors */
+    .authors-heading h3 {
+        font-size: 40px;
+    }
+
+
+    .author-card {
+        padding: 24px 16px;
+        gap: 18px;
+    }
+
+    .author-img .img-wrapper {
+        width: 125px;
+    }
+
+    .author-content h4 {
+        font-size: 24px;
+    }
+
+    .author-content p {
+        font-size: 15px;
+    }
+
+
+    .card-3-bg {
+        padding-bottom: 24px;
+    }
+
+    .author-social .twitter,
+    .author-social .linked-in,
+    .author-social .insta {
+        width: 42px;
+        height: 42px;
+    }
+
+
+
+    /* *!SECTION - Authors */
+
+
+
+    /* *SECTION - Community */
+    .community-overview {
+        padding: 10px 0;
+    }
+
+
+    .community-social {
+        width: calc(52% - 15px);
+        padding: 10px;
+    }
+
+    .community-comment {
+        width: calc(48% - 15px);
+    }
+
+    .community-social h4 {
+        font-size: 28px;
+    }
+
+    .community-social p {
+        font-size: 17px;
+    }
+
+    .community-comment h5 {
+        font-size: 26px;
+    }
+
+    .community-info span {
+        font-size: 16px;
+    }
+
+    .opinion-card p {
+        font-size: 16px;
+    }
+
+    /* *!SECTION - Community */
+
+
+
+    /* *SECTION - Footer */
+    .ux-head h3 {
+        font-size: 24px;
+    }
+
+    .ux-head .img-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+
+    .ux-head .img-wrapper img {
+        width: 32px;
+    }
+
+
+    #user-email,
+    .footer-btn {
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+
+    .copy-right p,
+    .span-title span {
+        font-size: 15px;
+    }
+
+    /* *!SECTION - Footer */
+}
+
+/* *!SECTION - breakpoint 1 */
+
+
+/* *SECTION - breakpoint-2 */
+@media (max-width: 900px) {
+
+    /* *SECTION - Navbar */
+    .navbar-section {
+        position: static;
+        margin: 15px auto 25px auto;
+        padding: 15px 12px;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-title span {
+        font-size: 24px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    .nav-btn {
+        width: 100%;
+    }
+
+    .nav-btn button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* *!SECTION - Navbar */
+
+    /* *SECTION - Hero */
+    .hero::before,
+    .hero::after {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 15px;
+    }
+
+    .hero-content {
+        margin-top: 15px;
+        gap: 30px;
+    }
+
+    .hero-headline {
+        padding: 6px 12px;
+    }
+
+    .hero-headline span {
+        font-size: 12px;
+    }
+
+    .hero-desc h1 {
+        font-size: 34px;
+    }
+
+    .hero-desc p {
+        font-size: 16px;
+        padding: 10px;
+        box-shadow: 3px 3px 0 black;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero-btn button {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 20px;
+        font-size: 16px;
+        box-shadow: 5px 5px 0 black;
+    }
+
+    .hero-img .img-wrapper {
+        width: 100%;
+        height: 250px;
+        transform: rotate(1deg);
+    }
+
+
+    .heroImg-headline {
+        right: 10px;
+        top: 10px;
+        padding: 6px 10px;
+        transform: rotate(4deg);
+    }
+
+    .heroImg-headline span {
+        font-size: 12px;
+    }
+
+    /* *!SECTION - Hero */
+
+    /* *SECTION - LATEST-ARTICLES */
+    .comment-by {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px 18px;
+        margin-top: 15px;
+    }
+
+    .comment-by .card {
+        align-items: center;
+        gap: 6px;
+    }
+
+    .comment-by .card img {
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+    }
+
+    .comment-by .card span {
+        font-size: 12px;
+    }
+
+
+
+
+    /* *!SECTION - LATEST-ARTICLES */
+
+    /* *SECTION - Authors */
+    .authors-section {
+        min-height: auto;
+    }
+
+    .authors-heading h3 {
+        font-size: 32px;
+    }
+
+    .authors-heading p {
+        font-size: 17px;
+    }
+
+
+    .authors-section::before {
+        left: 10px;
+        bottom: 10px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .authors-section::after {
+        right: 10px;
+        top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .authors-comments {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .author-content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .author-card {
+        width: 100%;
+        max-width: 520px;
+        padding: 30px;
+    }
+
+
+
+    /* *!SECTION - Authors */
+
+
+
+    /* *SECTION - Community */
+    .community-section {
+        min-height: auto;
+    }
+
+    .community-heading h3 {
+        font-size: 34px;
+    }
+
+    .community-heading p {
+        font-size: 18px;
+    }
+
+
+    .community-overview {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .community-social,
+    .community-comment {
+        width: 100%;
+    }
+
+    .community-social {
+        padding: 0;
+    }
+
+    /* *!SECTION - Community */
+
+
+    /* *SECTION - Footer */
+    footer {
+        min-height: auto;
+        padding-block: 40px 20px;
+    }
+
+
+    .ux-review {
+        width: calc(60% - 20px);
+    }
+
+    .footer-categories {
+        width: calc(40% - 20px);
+    }
+
+    .footer-newsletter {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    .copy-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        border-top-width: 3px;
+    }
+
+    .copy-right p {
+        margin: 0;
+    }
+
+    /* *!SECTION - Footer */
+}
+
+/* *!SECTION - breakpoint-2 */
+
+
+
+/* *SECTION - breakpoint-3 */
+@media (max-width: 576px) {
+
+    /* *SECTION - Navbar */
+    .navbar-section {
+        margin: 10px auto 20px auto;
+        padding: 12px 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    /* *!SECTION - Navbar */
+
+    /* *SECTION - Hero */
+    .hero-desc h1 {
+        font-size: 28px;
+    }
+
+    .hero-desc p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .hero-img .img-wrapper {
+        height: 210px;
+    }
+
+    /* *!SECTION - Hero */
+
+    /* *SECTION - LATEST-ARTICLES */
+    .LA-card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px;
+    }
+
+    .LA-card .LA-img,
+    .LA-comment {
+        width: 100%;
+    }
+
+    .LA-img .img-wrapper {
+        max-width: 100%;
+        height: 190px;
+    }
+
+
+    .LA-img .LA-img-user-span,
+    .LA-img .LA-img-guide-span,
+    .LA-img .LA-img-insta-span {
+        top: 8px;
+        right: 8px;
+
+    }
+
+    .LA-comment .content h3 {
+        font-size: 19px;
+    }
+
+    .LA-comment .content p {
+        font-size: 15px;
+    }
+
+    .laContent-btn button {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .trending-wrapper,
+    .categorey-wrapper {
+        padding: 16px;
+    }
+
+    .trending-wrapper h2,
+    .categorey-wrapper h2 {
+        font-size: 22px;
+    }
+
+    .trending-item .rank-number {
+        font-size: 28px;
+    }
+
+    .trending-item .item-details h3 {
+        font-size: 15px;
+    }
+
+    .categories span {
+        font-size: 13px;
+    }
+
+
+    /* *!SECTION - LATEST-ARTICLES */
+
+    /* *SECTION - Authors */
+    .authors-section {
+        padding-bottom: 40px;
+    }
+
+    .authors-section::before,
+    .authors-section::after {
+        display: none;
+    }
+
+    .authors-heading {
+        padding-top: 30px;
+        gap: 8px;
+    }
+
+    .authors-heading h3 {
+        font-size: 26px;
+    }
+
+    .authors-heading p {
+        font-size: 14px;
+    }
+
+    .authors-heading span {
+        width: 100px;
+        height: 6px;
+    }
+
+    .authors-comments {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+
+    .author-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 24px 16px;
+    }
+
+    .author-img .img-wrapper {
+        width: 110px;
+        border-width: 3px;
+    }
+
+
+    .author-card .founder-span,
+    .author-card .lead-span,
+    .author-card .viral-span {
+        top: 12px;
+        right: 12px;
+        font-size: 11px;
+        padding: 2px 6px;
+    }
+
+    .author-content h4 {
+        font-size: 22px;
+    }
+
+    .author-content span {
+        font-size: 14px;
+    }
+
+    .author-content p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+
+    .author-social {
+        gap: 12px;
+    }
+
+    .author-social .twitter,
+    .author-social .linked-in,
+    .author-social .insta {
+        width: 40px;
+        height: 40px;
+    }
+
+    .author-social img {
+        width: 20px;
+    }
+
+
+    /* *!SECTION - Authors */
+
+    /* *SECTION - Community */
+
+    .community-section .container {
+        padding-top: 35px;
+    }
+
+    .community-heading h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .community-heading p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .community-heading span {
+        width: 100px;
+        height: 6px;
+    }
+
+    .community-overview {
+        gap: 30px;
+        margin-block: 20px;
+    }
+
+
+    .community-social h4 {
+        font-size: 22px;
+    }
+
+    .community-social p {
+        font-size: 15px;
+        padding: 14px;
+        box-shadow: 2px 2px black;
+    }
+
+    .community-info {
+        gap: 15px;
+    }
+
+    .info-card {
+        gap: 12px;
+    }
+
+
+    .info-card .img-wrapper {
+        width: 42px;
+        height: 42px;
+        flex-shrink: 0;
+        /* *NOTE -  square from squishing */
+    }
+
+    .info-card .img-wrapper img {
+        width: 18px;
+    }
+
+    .community-info span {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+
+    .community-social button {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 20px;
+        font-size: 16px;
+        box-shadow: 5px 5px black;
+    }
+
+    .community-social button img {
+        width: 24px;
+    }
+
+    .community-comment {
+        padding: 16px;
+        box-shadow: 4px 4px black;
+    }
+
+    .community-comment h5 {
+        font-size: 20px;
+    }
+
+    .community-opinion .opinion-card {
+        padding: 14px;
+    }
+
+    .opinion-card p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .opinion-card .img-wrapper {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+    }
+
+    .opinion-name-font-color {
+        font-size: 16px;
+    }
+
+    .opinion-job-font-color {
+        font-size: 13px;
+    }
+
+    /* *!SECTION - Community */
+
+
+    /* *SECTION - Footer */
+    .footer-content {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .ux-review,
+    .footer-categories,
+    .footer-newsletter {
+        width: 100%;
+    }
+
+    .ux-head {
+        padding: 0;
+        gap: 12px;
+    }
+
+    .ux-head .img-wrapper {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ux-head .img-wrapper img {
+        width: 26px;
+    }
+
+    .ux-head h3 {
+        font-size: 20px;
+    }
+
+    .footer-categories h3,
+    .footer-newsletter h3 {
+        font-size: 20px;
+    }
+
+    .footer-categories .span-title {
+        gap: 12px;
+    }
+
+    .footer-categories .span-title span {
+        font-size: 15px;
+    }
+
+
+    #user-email {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+
+    .footer-btn {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+
+    .copy-right {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .copy-right .span-title {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .copy-right p {
+        font-size: 13px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .copy-right .span-title span {
+        font-size: 13px;
+    }
+
+    /* *!SECTION - Footer */
+
+}
+
+/* *!SECTION - breakpoint-3 */
